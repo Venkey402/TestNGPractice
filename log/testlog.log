@@ -1,0 +1,74 @@
+2024-07-19 10:29:06,405 - TestNG Practice -INFO - ----------------BeforeSuite----------------
+2024-07-19 10:29:06,414 - TestNG Practice -INFO - ----------------BeforeTest----------------
+2024-07-19 10:29:06,446 - TestNG Practice -INFO - tests.Enable-----EnableMethod1-----
+2024-07-19 10:29:06,448 - TestNG Practice -INFO - tests.Priority-----Method1-----
+2024-07-19 10:29:06,450 - TestNG Practice -INFO - tests.DependsOn-----EnableMethod1-----
+2024-07-19 10:29:06,451 - TestNG Practice -INFO - tests.AssertsDemo-----EnableMethod1-----
+2024-07-19 10:29:06,451 - TestNG Practice -INFO - tests.SoftAssertsDemo-----assert True = true-----
+2024-07-19 10:29:06,463 - TestNG Practice -INFO - tests.SoftAssertsDemo-----EnableMethod2-----
+2024-07-19 10:29:06,463 - TestNG Practice -INFO - tests.SoftAssertsDemo-----EnableMethod2-----
+2024-07-19 10:29:06,463 - TestNG Practice -INFO - tests.SoftAssertsDemo-----assert true = false-----
+2024-07-19 10:29:06,466 - TestNG Practice -INFO - tests.SoftAssertsDemo-----assert equals = false-----
+2024-07-19 10:29:06,473 - TestNG Practice -INFO - tests.DependsOn-----EnableMethod3-----
+2024-07-19 10:29:06,474 - TestNG Practice -INFO - tests.ListenersDemo-----Method1-----
+2024-07-19 10:29:06,475 - TestNG Practice -INFO - tests.AlwaysRun m1
+2024-07-19 10:29:06,478 - TestNG Practice -INFO - tests.DependsOn-----EnableMethod2-----
+2024-07-19 10:29:06,478 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,482 - TestNG Practice -INFO - tests.ParameterizationDemo-----Method1-----
+2024-07-19 10:29:06,482 - TestNG Practice -INFO - tests.GroupdsDemo-----Method2-----
+2024-07-19 10:29:06,480 - TestNG Practice -INFO - tests.DataProviderDemo Name : venkat, age : 35, gender : male
+2024-07-19 10:29:06,483 - TestNG Practice -INFO - browser : chrome uname : venkat pass : pass123
+2024-07-19 10:29:06,483 - TestNG Practice -INFO - tests.AlwaysRun m2
+2024-07-19 10:29:06,486 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,487 - TestNG Practice -INFO - tests.DataProviderDemo Name : mahesh, age : 29, gender : male
+2024-07-19 10:29:06,490 - TestNG Practice -INFO - tests.ListenersDemo-----Method2-----
+2024-07-19 10:29:06,491 - TestNG Practice -INFO - tests.DataProviderDemo Name : Ramu, age : 63, gender : male
+2024-07-19 10:29:06,492 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,492 - TestNG Practice -INFO - tests.GroupdsDemo-----Method4-----
+2024-07-19 10:29:06,493 - TestNG Practice -INFO - tests.GroupdsDemo-----Method3-----
+2024-07-19 10:29:06,495 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,497 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,498 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,499 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,502 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,503 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,505 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:06,507 - TestNG Practice -INFO - ----------------AfterTest----------------
+2024-07-19 10:29:06,538 - TestNG Practice -INFO - ----------------AfterSuite----------------
+2024-07-19 10:29:52,117 - TestNG Practice -INFO - ----------------BeforeSuite----------------
+2024-07-19 10:29:52,124 - TestNG Practice -INFO - ----------------BeforeTest----------------
+2024-07-19 10:29:52,153 - TestNG Practice -INFO - tests.Enable-----EnableMethod1-----
+2024-07-19 10:29:52,155 - TestNG Practice -INFO - tests.Priority-----Method1-----
+2024-07-19 10:29:52,156 - TestNG Practice -INFO - tests.DependsOn-----EnableMethod1-----
+2024-07-19 10:29:52,159 - TestNG Practice -INFO - tests.SoftAssertsDemo-----assert True = true-----
+2024-07-19 10:29:52,160 - TestNG Practice -INFO - tests.AssertsDemo-----EnableMethod1-----
+2024-07-19 10:29:52,168 - TestNG Practice -INFO - tests.SoftAssertsDemo-----EnableMethod2-----
+2024-07-19 10:29:52,168 - TestNG Practice -INFO - tests.SoftAssertsDemo-----EnableMethod2-----
+2024-07-19 10:29:52,168 - TestNG Practice -INFO - tests.SoftAssertsDemo-----assert true = false-----
+2024-07-19 10:29:52,174 - TestNG Practice -INFO - tests.SoftAssertsDemo-----assert equals = false-----
+2024-07-19 10:29:52,177 - TestNG Practice -INFO - tests.AlwaysRun m1
+2024-07-19 10:29:52,178 - TestNG Practice -INFO - tests.ListenersDemo-----Method1-----
+2024-07-19 10:29:52,177 - TestNG Practice -INFO - tests.DependsOn-----EnableMethod3-----
+2024-07-19 10:29:52,181 - TestNG Practice -INFO - tests.ListenersDemo-----Method2-----
+2024-07-19 10:29:52,182 - TestNG Practice -INFO - tests.DataProviderDemo Name : venkat, age : 35, gender : male
+2024-07-19 10:29:52,183 - TestNG Practice -INFO - tests.AlwaysRun m2
+2024-07-19 10:29:52,183 - TestNG Practice -INFO - tests.DependsOn-----EnableMethod2-----
+2024-07-19 10:29:52,185 - TestNG Practice -INFO - tests.ParameterizationDemo-----Method1-----
+2024-07-19 10:29:52,185 - TestNG Practice -INFO - browser : chrome uname : venkat pass : pass123
+2024-07-19 10:29:52,187 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,188 - TestNG Practice -INFO - tests.DataProviderDemo Name : mahesh, age : 29, gender : male
+2024-07-19 10:29:52,189 - TestNG Practice -INFO - tests.GroupdsDemo-----Method3-----
+2024-07-19 10:29:52,189 - TestNG Practice -INFO - tests.GroupdsDemo-----Method2-----
+2024-07-19 10:29:52,192 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,192 - TestNG Practice -INFO - tests.DataProviderDemo Name : Ramu, age : 63, gender : male
+2024-07-19 10:29:52,194 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,194 - TestNG Practice -INFO - tests.GroupdsDemo-----Method4-----
+2024-07-19 10:29:52,196 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,197 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,198 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,200 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,201 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,202 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,204 - TestNG Practice -INFO - tests.Priority-----Method2-----
+2024-07-19 10:29:52,206 - TestNG Practice -INFO - ----------------AfterTest----------------
+2024-07-19 10:29:52,233 - TestNG Practice -INFO - ----------------AfterSuite----------------
