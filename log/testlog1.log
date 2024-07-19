@@ -72,3 +72,40 @@
 2024-07-19 10:29:52,204 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
 2024-07-19 10:29:52,206 [main] INFO TestNG Practice - ----------------AfterTest----------------
 2024-07-19 10:29:52,233 [main] INFO TestNG Practice - ----------------AfterSuite----------------
+2024-07-19 10:36:20,547 [main] INFO TestNG Practice - ----------------BeforeSuite----------------
+2024-07-19 10:36:20,555 [main] INFO TestNG Practice - ----------------BeforeTest----------------
+2024-07-19 10:36:20,580 [TestNG-test-Test-4] INFO TestNG Practice - tests.Enable-----EnableMethod1-----
+2024-07-19 10:36:20,580 [TestNG-test-Test-3] INFO TestNG Practice - tests.DependsOn-----EnableMethod1-----
+2024-07-19 10:36:20,580 [TestNG-test-Test-1] INFO TestNG Practice - tests.Priority-----Method1-----
+2024-07-19 10:36:20,584 [TestNG-test-Test-2] INFO TestNG Practice - tests.AssertsDemo-----EnableMethod1-----
+2024-07-19 10:36:20,584 [TestNG-test-Test-5] INFO TestNG Practice - tests.SoftAssertsDemo-----assert True = true-----
+2024-07-19 10:36:20,591 [TestNG-test-Test-4] INFO TestNG Practice - tests.SoftAssertsDemo-----EnableMethod2-----
+2024-07-19 10:36:20,591 [TestNG-test-Test-5] INFO TestNG Practice - tests.SoftAssertsDemo-----assert true = false-----
+2024-07-19 10:36:20,592 [TestNG-test-Test-5] INFO TestNG Practice - tests.SoftAssertsDemo-----assert equals = false-----
+2024-07-19 10:36:20,591 [TestNG-test-Test-1] INFO TestNG Practice - tests.SoftAssertsDemo-----EnableMethod2-----
+2024-07-19 10:36:20,596 [TestNG-test-Test-5] INFO TestNG Practice - tests.DependsOn-----EnableMethod3-----
+2024-07-19 10:36:20,598 [TestNG-test-Test-5] INFO TestNG Practice - tests.DependsOn-----EnableMethod2-----
+2024-07-19 10:36:20,598 [TestNG-test-Test-4] INFO TestNG Practice - tests.AlwaysRun m1
+2024-07-19 10:36:20,599 [TestNG-test-Test-5] INFO TestNG Practice - tests.ListenersDemo-----Method2-----
+2024-07-19 10:36:20,598 [TestNG-test-Test-3] INFO TestNG Practice - tests.ListenersDemo-----Method1-----
+2024-07-19 10:36:20,601 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,601 [TestNG-test-Test-1] INFO TestNG Practice - tests.DataProviderDemo Name : venkat, age : 35, gender : male
+2024-07-19 10:36:20,602 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,602 [TestNG-test-Test-3] INFO TestNG Practice - tests.AlwaysRun m2
+2024-07-19 10:36:20,604 [TestNG-test-Test-1] INFO TestNG Practice - tests.DataProviderDemo Name : mahesh, age : 29, gender : male
+2024-07-19 10:36:20,604 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,605 [TestNG-test-Test-1] INFO TestNG Practice - tests.DataProviderDemo Name : Ramu, age : 63, gender : male
+2024-07-19 10:36:20,605 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,604 [TestNG-test-Test-5] INFO TestNG Practice - tests.GroupdsDemo-----Method2-----
+2024-07-19 10:36:20,605 [TestNG-test-Test-3] INFO TestNG Practice - tests.GroupdsDemo-----Method3-----
+2024-07-19 10:36:20,605 [TestNG-test-Test-2] INFO TestNG Practice - tests.ParameterizationDemo-----Method1-----
+2024-07-19 10:36:20,607 [TestNG-test-Test-2] INFO TestNG Practice - browser : chrome uname : venkat pass : pass123
+2024-07-19 10:36:20,606 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,606 [TestNG-test-Test-1] INFO TestNG Practice - tests.GroupdsDemo-----Method4-----
+2024-07-19 10:36:20,608 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,609 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,610 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,611 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,611 [TestNG-test-Test-4] INFO TestNG Practice - tests.Priority-----Method2-----
+2024-07-19 10:36:20,614 [main] INFO TestNG Practice - ----------------AfterTest----------------
+2024-07-19 10:36:20,647 [main] INFO TestNG Practice - ----------------AfterSuite----------------

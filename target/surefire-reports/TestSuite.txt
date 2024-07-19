@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.724 s <<< FAILURE! - in TestSuite
+EnableMethod2(tests.SoftAssertsDemo)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [false] but found [true],
+	expected [true] but found [false],
+	expected [false] but found [true]
+	at tests.SoftAssertsDemo.EnableMethod2(SoftAssertsDemo.java:28)
+
+EnableMethod2(tests.AssertsDemo)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.AssertsDemo.EnableMethod2(AssertsDemo.java:18)
+
+EnableMethod3(tests.SoftAssertsDemo)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [false] but found [true],
+	expected [true] but found [false]
+	at tests.SoftAssertsDemo.EnableMethod3(SoftAssertsDemo.java:37)
+
+EnableMethod3(tests.AssertsDemo)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at tests.AssertsDemo.EnableMethod3(AssertsDemo.java:26)
+
+m1(tests.AlwaysRun)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at tests.AlwaysRun.m1(AlwaysRun.java:12)
+

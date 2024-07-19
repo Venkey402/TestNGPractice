@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="27" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-19T10:36:20 IST" name="Suite" finished-at="2024-07-19T10:36:20 IST" duration-ms="65">
+    <groups>
+      <group name="TC_4">
+        <method signature="GroupdsDemo.m4()[pri:0, instance:tests.GroupdsDemo@1349883]" name="m4" class="tests.GroupdsDemo"/>
+      </group> <!-- TC_4 -->
+      <group name="TC_3">
+        <method signature="GroupdsDemo.m3()[pri:0, instance:tests.GroupdsDemo@1349883]" name="m3" class="tests.GroupdsDemo"/>
+      </group> <!-- TC_3 -->
+      <group name="TC_2">
+        <method signature="GroupdsDemo.m2()[pri:0, instance:tests.GroupdsDemo@1349883]" name="m2" class="tests.GroupdsDemo"/>
+      </group> <!-- TC_2 -->
+      <group name="sanity">
+        <method signature="GroupdsDemo.m2()[pri:0, instance:tests.GroupdsDemo@1349883]" name="m2" class="tests.GroupdsDemo"/>
+        <method signature="GroupdsDemo.m3()[pri:0, instance:tests.GroupdsDemo@1349883]" name="m3" class="tests.GroupdsDemo"/>
+        <method signature="ParameterizationDemo.m1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ParameterizationDemo@3ba987b8]" name="m1" class="tests.ParameterizationDemo"/>
+      </group> <!-- sanity -->
+      <group name="login">
+        <method signature="GroupdsDemo.m2()[pri:0, instance:tests.GroupdsDemo@1349883]" name="m2" class="tests.GroupdsDemo"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2024-07-19T10:36:20 IST" name="Test" finished-at="2024-07-19T10:36:20 IST" duration-ms="65">
+      <class name="tests.AlwaysRun">
+        <test-method signature="m1()[pri:0, instance:tests.AlwaysRun@74e28667]" started-at="2024-07-19T10:36:20 IST" name="m1" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at tests.AlwaysRun.m1(AlwaysRun.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:tests.AlwaysRun@74e28667]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" depends-on-methods="tests.AlwaysRun.m1" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- tests.AlwaysRun -->
+      <class name="tests.AnnotationsDemo">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.AnnotationsDemo@19932c16]" started-at="2024-07-19T10:36:20 IST" name="beforeSuite" finished-at="2024-07-19T10:36:20 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.AnnotationsDemo@19932c16]" started-at="2024-07-19T10:36:20 IST" name="beforeTest" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:tests.AnnotationsDemo@19932c16]" started-at="2024-07-19T10:36:20 IST" name="AfterTest" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:tests.AnnotationsDemo@19932c16]" started-at="2024-07-19T10:36:20 IST" name="AfterSuite" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- tests.AnnotationsDemo -->
+      <class name="tests.DependsOn">
+        <test-method signature="EnableMethod1()[pri:0, instance:tests.DependsOn@196a42c3]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod1" finished-at="2024-07-19T10:36:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod1 -->
+        <test-method signature="EnableMethod3()[pri:0, instance:tests.DependsOn@196a42c3]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod3" finished-at="2024-07-19T10:36:20 IST" depends-on-methods="tests.DependsOn.EnableMethod1" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod3 -->
+        <test-method signature="EnableMethod2()[pri:0, instance:tests.DependsOn@196a42c3]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod2" finished-at="2024-07-19T10:36:20 IST" depends-on-methods="tests.DependsOn.EnableMethod1, tests.DependsOn.EnableMethod3" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod2 -->
+      </class> <!-- tests.DependsOn -->
+      <class name="tests.GroupdsDemo">
+        <test-method signature="m2()[pri:0, instance:tests.GroupdsDemo@1349883]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:tests.GroupdsDemo@1349883]" started-at="2024-07-19T10:36:20 IST" name="m3" finished-at="2024-07-19T10:36:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method signature="m4()[pri:0, instance:tests.GroupdsDemo@1349883]" started-at="2024-07-19T10:36:20 IST" name="m4" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- tests.GroupdsDemo -->
+      <class name="tests.ParameterizationDemo">
+        <test-method signature="m1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ParameterizationDemo@3ba987b8]" started-at="2024-07-19T10:36:20 IST" name="m1" finished-at="2024-07-19T10:36:20 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[venkat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- tests.ParameterizationDemo -->
+      <class name="tests.Enable">
+        <test-method signature="EnableMethod1()[pri:0, instance:tests.Enable@4c60d6e9]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod1" finished-at="2024-07-19T10:36:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod1 -->
+      </class> <!-- tests.Enable -->
+      <class name="tests.Priority">
+        <test-method signature="m1()[pri:-1, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m1" finished-at="2024-07-19T10:36:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2()[pri:0, instance:tests.Priority@3f191845]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- tests.Priority -->
+      <class name="tests.ListenersDemo">
+        <test-method signature="m1()[pri:0, instance:tests.ListenersDemo@4b29d1d2]" started-at="2024-07-19T10:36:20 IST" name="m1" finished-at="2024-07-19T10:36:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:tests.ListenersDemo@4b29d1d2]" started-at="2024-07-19T10:36:20 IST" name="m2" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- tests.ListenersDemo -->
+      <class name="tests.DataProviderDemo">
+        <test-method signature="m1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DataProviderDemo@79e4c792]" started-at="2024-07-19T10:36:20 IST" name="m1" data-provider="getData" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[venkat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DataProviderDemo@79e4c792]" started-at="2024-07-19T10:36:20 IST" name="m1" data-provider="getData" finished-at="2024-07-19T10:36:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DataProviderDemo@79e4c792]" started-at="2024-07-19T10:36:20 IST" name="m1" data-provider="getData" finished-at="2024-07-19T10:36:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- tests.DataProviderDemo -->
+      <class name="tests.SoftAssertsDemo">
+        <test-method signature="EnableMethod1()[pri:0, instance:tests.SoftAssertsDemo@5e2c3d18]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod1" finished-at="2024-07-19T10:36:20 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod1 -->
+        <test-method signature="EnableMethod3()[pri:0, instance:tests.SoftAssertsDemo@5e2c3d18]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod3" finished-at="2024-07-19T10:36:20 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at tests.SoftAssertsDemo.EnableMethod3(SoftAssertsDemo.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod3 -->
+        <test-method signature="EnableMethod2()[pri:0, instance:tests.SoftAssertsDemo@5e2c3d18]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod2" finished-at="2024-07-19T10:36:20 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true],
+expected [true] but found [false],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true],
+expected [true] but found [false],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at tests.SoftAssertsDemo.EnableMethod2(SoftAssertsDemo.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod2 -->
+      </class> <!-- tests.SoftAssertsDemo -->
+      <class name="tests.AssertsDemo">
+        <test-method signature="EnableMethod1()[pri:0, instance:tests.AssertsDemo@17f9d882]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod1" finished-at="2024-07-19T10:36:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod1 -->
+        <test-method signature="EnableMethod2()[pri:0, instance:tests.AssertsDemo@17f9d882]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod2" finished-at="2024-07-19T10:36:20 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at tests.AssertsDemo.EnableMethod2(AssertsDemo.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod2 -->
+        <test-method signature="EnableMethod3()[pri:0, instance:tests.AssertsDemo@17f9d882]" started-at="2024-07-19T10:36:20 IST" name="EnableMethod3" finished-at="2024-07-19T10:36:20 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at tests.AssertsDemo.EnableMethod3(AssertsDemo.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnableMethod3 -->
+      </class> <!-- tests.AssertsDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
